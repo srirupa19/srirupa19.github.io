@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I’m Srirupa Datta (IRC: sriru:matrix.org), a third year undergraduate studying Electrical Engineering at Jadavpur University, India.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This year, I have decided to take part in Season of KDE and will be working on extending the Ellipse Assistant Tool to add support for Perspective Ellipse in Krita.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Github: [github.com/srirupa19](https://www.github.com/srirupa19)

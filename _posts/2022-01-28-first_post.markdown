@@ -2,7 +2,8 @@
 layout: post
 title: "First Blog Post for SoK 2022!"
 date:   2022-01-28 13:03:36 +0530
-categories: jekyll update
+categories: sok
+tags: kde sok
 ---
 ![My Painting](https://i.postimg.cc/PqdgrknP/starry-night2.png)
 

@@ -23,8 +23,8 @@ email: srirupa.datta@outlook.com
 author: Srirupa Datta
 description: >- # this means to ignore newlines until "baseurl:"
   I will be uploading Season of KDE blogposts here and other random stuff.
-baseurl: "srirupa19.github.io" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "srirupa19.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  srirupa19
 

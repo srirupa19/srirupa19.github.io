@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Blog Post for SoK 2022!"
-date:   2022-01-28 13:03:36 +0530
+date:   2022-02-01 13:03:36 +0530
 categories: sok
 tags: kde sok
 ---

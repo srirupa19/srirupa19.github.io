@@ -30,7 +30,7 @@ github_username:  srirupa19
 
 # Build settings
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 
 # Exclude from processing.

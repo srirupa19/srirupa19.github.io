@@ -10,17 +10,17 @@ tags: kde sok
 
 This is my fourth blogpost for SoK 2022. 
 
-It's been quite some time since my third blogpost. I've been working on adding the Perspective Ellipse Assistant Tool in Krita as a part of SoK'22. 
+It's been quite some time since my third blogpost. If you remember, I've been working on adding the Perspective Ellipse Assistant Tool in Krita as a part of SoK'22. 
 
 ## My Progress so far
 
-#### Merge Request and Status Report
+### Merge Request and Status Report
 
 Here's the [link](https://invent.kde.org/graphics/krita/-/merge_requests/1343) to my Merge Request.
 Also, feel free to check out my [status report](https://community.kde.org/SoK/2022/StatusReport/Srirupa_Datta).
 
 
-#### Creating the Insrcibed Drawable Ellipse
+### Creating the Insrcibed Drawable Ellipse
 
 My Perspective Ellipse Assistant Tool looked like this as of March 2022.  
 
@@ -33,12 +33,12 @@ In order to draw the drawable Ellipse, I need to find out the extreme points of 
 
 
 
-#### A bit of math... 
+### A bit of math... 
 
 In order to find the extreme points of the major axis of the transformed ellipse, here's what we need to do. 
 
 1. Obtain the equation of the ellipse by solving the tangent equations using the the four points of the four-point-cage, and the touch points of the cage and the ellipse, which in turn can be found by transforming the touch points of the unit square and inscribed circle. 
-2. The general equation of an ellipse contains 6 unknowns, namely `(a, b, c, d , e, f)`. Assuming a can never be zero, I can divide the equation by a, to get 5 unknowns namely `(b/a, c/a, d/a, e/a, f/a)`. 
+2. The general equation of an ellipse contains 6 unknowns, namely `(a, b, c, d , e, f)`. Assuming `a` can never be zero, I can divide the equation by `a`, to get 5 unknowns namely `(b/a, c/a, d/a, e/a, f/a)`. 
 3. Once I find the 5 coefficients, I can use these to find out the major axis extreme points by the formula shown [here](https://math.stackexchange.com/questions/616645/determining-the-major-minor-axes-of-an-ellipse-from-general-form). 
 
 

@@ -51,7 +51,7 @@ Adding <b>custom tags</b> to selected resources is a feature that we wish to int
 
 
 
-Yet another important feature would be <breloading</b> last bundle data when opened/on startup - this is particularly useful when making a bundle for other people.
+Yet another important feature would be <b>reloading</b> last bundle data when opened/on startup - this is particularly useful when making a bundle for other people.
 
 Apart from these, the new Bundle Creator would be <b>resizable</b>(Yaay!), and a separate Menu entry called Bundle Creator would be created. We plan to move `Manage Resource Libraries` , `Manage Resources` and `Bundle Creator` from `Menu > Settings` to `Menu > Resources`.
 

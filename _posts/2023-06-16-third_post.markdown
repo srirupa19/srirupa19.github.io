@@ -12,7 +12,7 @@ tags: kde gsoc
 
 ## <b> Recap </b>
 
-Welcome back! Last time, I successfully completed the development of the Bundle Creator up to the Resource Chooser page. This page now allows us to easily select resource items by applying <b>filters</b> based on tags or names. I've introduced some UI improvements, including the ability to <b> click-to-select </b>, the addition of a convenient `Remove Selected` button and the introduction of a visually appealing <b>grid view</b> to replace the traditional list view. These enhancements enhance the overall user experience and provide a more streamlined resource selection process.
+Welcome back! Last time, I successfully completed the development of the Bundle Creator up to the Resource Chooser page. This page now allows us to easily select resource items by applying <b>filters</b> based on tags or names. I've introduced some UI improvements, including the ability to <b>click-to-select</b>, the addition of a convenient `Remove Selected` button and the introduction of a visually appealing <b>grid view</b> to replace the traditional list view. These enhancements enhance the overall user experience and provide a more streamlined resource selection process.
 
 ## <b> The Bundle Creator Wizard </b>
 

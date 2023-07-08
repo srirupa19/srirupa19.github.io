@@ -37,7 +37,8 @@ To manipulate the working of the right half of the Resource Chooser Page, one wo
 
 This is really how each class mentioned above looks like. 
 
-![](https://i.postimg.cc/qqLLWmmF/Common-UI.jpg)
+<!-- ![](https://i.postimg.cc/qqLLWmmF/Common-UI.jpg) -->
+![Common UI](/assets/Common_UI.png)
 
 ## Qt's Model View Architecture in Bundle Creator
 

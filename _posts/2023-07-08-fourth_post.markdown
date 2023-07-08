@@ -101,3 +101,8 @@ My merge request can be viewed [here](https://invent.kde.org/graphics/krita/-/me
 ## Plans post Mid-Term Evaluation
 
 Post midterm, I would be working on adding the feature of editing bundles in Krita, which will allow artists to add and delete components from existing bundles, so that they won't have to go through the process of creating a bundle from scratch whenever they want to make some changes. I've created a [post](https://krita-artists.org/t/bundle-editor-new-feature/69635) on Krita Artists Forum to better understand the preferences of artists regarding bundle editing. Feel free to drop a comment if you want to talk about it! :D 
+
+-----------
+This time a hand drawn art since I have exhausted my collection of art made using Krita - serves as a  reminder that I should do this more often. :) 
+
+![Hand Drawn](/assets/handDrawn.jpeg)

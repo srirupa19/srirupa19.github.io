@@ -34,7 +34,7 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 <p style="text-align: center;">  
 <a href="mailto:srirupa.sps@gmail.com">Email</a>  /  
 <a href="https://drive.google.com/file/d/1Vs1ARMm-Q5m9TeAnWasNLkoTX3CtFJaz/view?usp=sharing">CV</a>  /  
-<a href="link_to_google_scholar">Google Scholar</a>  /  
+<a href="https://scholar.google.com/citations?hl=en&user=UV_Jyr0AAAAJ">Google Scholar</a>  /  
 <a href="https://www.github.com/srirupa19">GitHub</a>  /  
 <a href="https://www.linkedin.com/in/srirupa-datta/">LinkedIn</a>  
 </p>
@@ -61,12 +61,12 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 </div>
 <br>
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/AK1.gif" alt="Description of image" style="width: 250px; height: auto; margin-right: 20px;">
-  
+  <img src="/assets/AK1.gif" alt="Description of image" style="flex: 1; max-width: 250px; height: auto; margin-right: 20px;">
+
   <!-- Text on the right -->
-  <div>
+  <div style="flex: 2; min-width: 300px;">
     <b>A Deep Learning Approach for Position Control of a Mobile Robot</b>
     <br>
     <i><b>Srirupa Datta</b>, Swapnil Sengupta, Tamodip Das, Sourya Dasgupta, Sayantani Ghosh, Amit Konar</i>
@@ -76,7 +76,6 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
     <!-- Link at the bottom of the text -->
     [<a href="https://ieeexplore.ieee.org/document/10466131">Paper</a>] 
     [<a href="https://github.com/srirupa19/EEG_Motor_Imagery">Code</a>]  
-    
   </div>
 </div>
 

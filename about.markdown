@@ -1,23 +1,35 @@
 ---
-layout: page
-# title: Srirupa Datta
+layout: about
+title: About
 permalink: /about/
 ---
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
   <h1 style="margin: 0;">Srirupa Datta</h1>
-   <img src="/assets/dp.jpeg" alt="Srirupa Datta" style="width: 200px; height: 200px; border-radius: 50%;">
+  <img id="profileImage" src="/assets/dp.jpeg" alt="Srirupa Datta" style="width: 200px; height: 200px; border-radius: 50%;">
 </div>
 <br>
+
+<script>
+  var images = ['/assets/dp.jpeg', '/assets/draw.png']; // Paths to the two images
+  var currentIndex = 0;
+
+  function toggleImage() {
+    currentIndex = (currentIndex + 1) % images.length; // Toggle between 0 and 1
+    document.getElementById('profileImage').src = images[currentIndex];
+  }
+
+  setInterval(toggleImage, 5000); // Change image every 5 seconds
+</script>
 
 <style>body {text-align: justify; font-size: 13px;}</style>
 
 
 Hi, I am Srirupa (IRC: sriru:matrix.org). I am currently a Software Developer at [Morgan Stanley](https://www.morganstanley.com/), interested in pursuing research in Computer Science. My research interests focus on the intersection of deep learning, computer vision, and computer graphics. Coupled with my passion for digital art and contributions to [Krita](https://krita.org/en/), I am driven to explore the integration of AI and creative technologies, particularly in areas like 3D modeling, animation, and motion tracking.
 
-Currently, I am working with Prof. Sanjoy Kumar Saha on developing a robust framework for classifying motor movements and imagery, while balancing my full-time role as a Software Developer. I joined Morgan Stanley in 2023, where I am involved in a data migration project and responsible for maintaining financial data on the cloud (Snowflake). In the summer of 2023, I also contributed to Krita (KDE) as part of [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2023/projects/SB6pWpuy) under the mentorship of Emmet O'Neill. During this project, I redesigned Krita's Bundle Creator, a tool that enables users to create compressed files called Resource Bundles, which house collections of resources. I also added the capability to edit these bundles, enhancing the tool's functionality for the Krita community.
+Currently, I am working with [Prof. Sanjoy Kumar Saha](https://scholar.google.co.in/citations?user=X3Cu3hYAAAAJ&hl=en) on developing a robust framework for classifying motor movements and imagery, while balancing my full-time role as a Software Developer. I joined Morgan Stanley in 2023, where I am involved in a data migration project and responsible for maintaining financial data on the cloud (Snowflake). In the summer of 2023, I also contributed to Krita (KDE) as part of [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2023/projects/SB6pWpuy) under the mentorship of Emmet O'Neill. During this project, I redesigned Krita's Bundle Creator, a tool that enables users to create compressed files called Resource Bundles, which house collections of resources. I also added the capability to edit these bundles, enhancing the tool's functionality for the Krita community.
 
-Before my graduation, I collaborated with Prof. Amit Konar and Prof. Sanjoy Kumar Saha on research projects that deepened knowledge of deep learning and signal processing. As a painter with a passion for software development, I actively contributed to Krita while also immersing myself in learning and practicing digital painting. During my undergraduate years, I had the opportunity to intern at [Simon Fraser University](https://www.sfu.ca/) in the summer of 2022 through the [Mitacs Globalink Fellowship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/), where I gained valuable research experience. I graduated from [Jadavpur University](https://jadavpuruniversity.in/), India, in 2023 with a Bachelor's degree in Electrical Engineering.
+Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en) and Prof. Sanjoy Kumar Saha on research projects that deepened knowledge of deep learning and signal processing. As a painter with a passion for software development, I actively contributed to Krita while also immersing myself in learning and practicing digital painting. During my undergraduate years, I had the opportunity to intern at [Simon Fraser University](https://www.sfu.ca/) in the summer of 2022 through the [Mitacs Globalink Fellowship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/), where I gained valuable research experience. I graduated from [Jadavpur University](https://jadavpuruniversity.in/), India, in 2023 with a Bachelor's degree in Electrical Engineering.
 
 <p style="text-align: center;">  
 <a href="mailto:srirupa.sps@gmail.com">Email</a>  /  

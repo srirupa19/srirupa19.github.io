@@ -51,13 +51,15 @@ Before my graduation, I collaborated with Prof. Amit Konar and Prof. Sanjoy Kuma
 
 <div style="display: flex; align-items: center;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/AK.gif" alt="Description of image" style="width: 250px; height: auto; margin-right: 20px;">
+  <img src="/assets/AK1.gif" alt="Description of image" style="width: 250px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
   <div>
     <b>A Deep Learning Approach for Position Control of a Mobile Robot</b>
     <br>
     <i><b>Srirupa Datta</b>, Swapnil Sengupta, Tamodip Das, Sourya Dasgupta, Sayantani Ghosh, Amit Konar</i>
+    <br>
+    <span style="color: rgb(178, 4, 4);">CODEC'23</span>
     <br>
     <!-- Link at the bottom of the text -->
     [<a href="https://ieeexplore.ieee.org/document/10466131">Paper</a>] 

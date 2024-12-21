@@ -43,12 +43,12 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 <h3 style="color: #0074D9;">Research</h3>
 
 <br>
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/SKS.gif" alt="Description of image" style="width: 250px; height: auto; margin-right: 20px;">
+  <img src="/assets/SKS.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
-  <div>
+  <div style="flex: 1; min-width: 200px;">
     <b>Motor Imagery Classification Using Activation/Deactivation Pattern Created from EEG Signal</b>
     <br>
     <i>Rahash Agarwal, <b>Srirupa Datta</b>, Debatri Chatterjee, Sanjoy Kumar Saha</i>
@@ -86,12 +86,12 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 <h3 style="color: #0074D9;">Work Experience</h3>
 
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/MS.gif" alt="Description of image" style="width: 250px; height: auto; margin-right: 20px;">
+  <img src="/assets/MS.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
-  <div>
+  <div style="flex: 1; min-width: 200px;">
     <h5>Morgan Stanley, Software Engineer II</h5>
     <i>Currently Working</i>
     <p>As part of the Institutional Securities Department, worked on data transformation projects migrating finance reference data to Snowflake (Azure) and developed Jenkins-based CI/CD pipelines for automated deployments. Contributed to optimizing legacy ETL functionality by converting Perl code to Python and improving performance with PySpark, while also enhancing a full-stack application using Python, Flask, and Angular.</p>
@@ -104,12 +104,12 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 </div>
 
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/bundle_editor.gif" alt="Description of image" style="width: 250px; height: auto; margin-right: 20px;">
+  <img src="/assets/bundle_editor.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
-  <div>
+  <div style="flex: 1; min-width: 200px;">
     <h5>Google Summer of Code, 2023</h5>
     <p>Redesigned Krita’s Bundle Creator into a resizable wizard with four distinct pages, improving its modularity and user interface. This tool allows users to create, manage, and edit resource bundles, with enhanced features like resource filtering, grid/list view toggling, and integration with Krita's Resource Database.</p>
     
@@ -120,12 +120,12 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
   </div>
 </div>
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/MS.gif" alt="Description of image" style="width: 250px; height: auto; margin-right: 20px;">
+  <img src="/assets/MS.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
-  <div>
+  <div style="flex: 1; min-width: 200px;">
     <h5>Morgan Stanley, Technology Analyst Intern, 2022</h5>
     <p>Worked on a firm-wide Greenplum decommission project, migrating from on-premises Greenplum to Snowflake (Azure) to optimize cost efficiency. Developed scripts to automate the migration of stage and dimension tables, greatly reducing manual effort and streamlining the process for Cost Reporting and Balance Sheet.</p>
     
@@ -137,12 +137,12 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 </div>
 
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/animation2.gif" alt="Description of image" style="width: 250px; height: auto; margin-right: 20px;">
+  <img src="/assets/animation2.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
-  <div>
+  <div style="flex: 1; min-width: 200px;">
     <h5>Season of KDE, 2022</h5>
     <p>Developed a Perspective Ellipse Assistant in Krita that is used for accurately drawing ellipses within a square, ensuring proper alignment in perspective. This tool streamlines the process by automating perspective projection, enhancing precision and efficiency in digital art creation.</p>
     

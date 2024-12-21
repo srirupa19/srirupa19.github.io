@@ -161,6 +161,40 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 candidates
 - [December, 2017] [KVPY](https://en.wikipedia.org/wiki/Kishore_Vaigyanik_Protsahan_Yojana), national research fellowship scholarship awarded to top students during senior high school
 
+<h3 style="color: #0074D9;">Fun Projects</h3>
+
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center;">
+  <!-- Cell 1 -->
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <div style="height: 150px; display: flex; align-items: center; justify-content: center;">
+      <img src="/assets/kturtle.gif" alt="Animation 1" style="max-height: 100%; max-width: 100%;">
+    </div>
+    <br>
+    <p><a href="https://github.com/srirupa19/kturtle" target="_blank">KTurtle Clone </a></p>
+  </div>
+  
+  <!-- Cell 2 -->
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <div style="height: 150px; display: flex; align-items: center; justify-content: center;">
+      <img src="/assets/sudoku.gif" alt="Animation 2" style="max-height: 100%; max-width: 100%;">
+    </div>
+    <br>
+    <p><a href="https://github.com/srirupa19/Sudoku" target="_blank">Sudoku Solver</a></p>
+  </div>
+  
+  <!-- Cell 3 -->
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <div style="height: 150px; display: flex; align-items: center; justify-content: center;">
+      <img src="/assets/haskell.gif" alt="Animation 3" style="max-height: 100%; max-width: 100%;">
+    </div>
+    <br>
+    <p><a href="https://github.com/srirupa19/Interpreter" target="_blank">Interpreter</a></p>
+  </div>
+</div>
+
+
+
 
 
 

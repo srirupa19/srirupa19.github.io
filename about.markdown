@@ -45,7 +45,7 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 <br>
 <div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/SKS.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
+  <img src="/assets/SKS.gif" alt="Description of image" style="max-width: 100%; width: 250px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
   <div style="flex: 1; min-width: 200px;">
@@ -63,7 +63,7 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/AK1.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
+  <img src="/assets/AK1.gif" alt="Description of image" style="max-width: 100%; width: 250px; height: auto; margin-right: 20px;">
 
   <!-- Text on the right -->
   <div style="flex: 1; min-width: 200px;">
@@ -88,7 +88,7 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 
 <div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/MS.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
+  <img src="/assets/MS.gif" alt="Description of image" style="max-width: 100%; width: 250px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
   <div style="flex: 1; min-width: 200px;">
@@ -106,7 +106,7 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 
 <div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/bundle_editor.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
+  <img src="/assets/bundle_editor.gif" alt="Description of image" style="max-width: 100%; width: 250px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
   <div style="flex: 1; min-width: 200px;">
@@ -122,7 +122,7 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 
 <div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/MS.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
+  <img src="/assets/MS.gif" alt="Description of image" style="max-width: 100%; width: 250px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
   <div style="flex: 1; min-width: 200px;">
@@ -139,7 +139,7 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 
 <div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
-  <img src="/assets/animation2.gif" alt="Description of image" style="max-width: 100%; width: 200px; height: auto; margin-right: 20px;">
+  <img src="/assets/animation2.gif" alt="Description of image" style="max-width: 100%; width: 250px; height: auto; margin-right: 20px;">
   
   <!-- Text on the right -->
   <div style="flex: 1; min-width: 200px;">

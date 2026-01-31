@@ -161,6 +161,23 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 candidates
 - [December, 2017] [KVPY](https://en.wikipedia.org/wiki/Kishore_Vaigyanik_Protsahan_Yojana), national research fellowship scholarship awarded to top students during senior high school
 
+<h3 style="color: #0074D9;">Open Source Contributions</h3>
+Being a painter who loves coding, I’ve been using Krita to paint since my undergrad days. I’ve been using KDE software since 2021, and in my free time I like giving back to the tools I use, mostly Krita and digiKam. Below are some of the PRs I’ve worked on.
+
+- [PR !380 (digiKam)](https://invent.kde.org/graphics/digikam/-/merge_requests/380):   Added Advanced Search support for finding images with missing or empty capture settings and place metadata, helping identify photos with incomplete EXIF or location information.
+
+- [PR !801 (Krita)](https://invent.kde.org/graphics/krita/-/merge_requests/801):  Added a warning dialog when exporting files with multiple transparency masks to formats that do not support them, preventing silent data loss.
+
+- [PR !894 (Krita)](https://invent.kde.org/graphics/krita/-/merge_requests/894):  Fixed a freeze when splitting layers on a colorize mask by converting it to a paint layer, improving performance.
+
+- [PR !883 (Krita)](https://invent.kde.org/graphics/krita/-/merge_requests/883):  Fixed incorrect brush previews for brushes without preview images by correcting the drawing order in the preview view.
+
+- [PR !854 (Krita)](https://invent.kde.org/graphics/krita/-/merge_requests/854): Removed an unnecessary and ambiguous “work recursively” option and cleaned up the related code in the transform tool.
+
+- [PR !795 (Krita)](https://invent.kde.org/graphics/krita/-/merge_requests/795):  Reordered the touch docker to make the interface more intuitive.
+
+- [PR !886 (Krita)](https://invent.kde.org/graphics/krita/-/merge_requests/886):  Fixed swapped Y-axis labels in the brush mix transfer curve.
+
 <h3 style="color: #0074D9;">Fun Projects</h3>
 
 

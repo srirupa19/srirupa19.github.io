@@ -25,18 +25,18 @@ permalink: /about/
 <style>body {text-align: justify; font-size: 13px;}</style>
 
 
-Hi, I am Srirupa (IRC: sriru:matrix.org). I am currently a Software Developer at [Morgan Stanley](https://www.morganstanley.com/), interested in pursuing research in Computer Science. My research interests focus on the intersection of deep learning, computer vision, and computer graphics. Coupled with my passion for digital art and contributions to [Krita](https://krita.org/en/), I am driven to explore the integration of AI and creative technologies, particularly in areas like 3D modeling, animation, and motion tracking.
+Hi, I am Srirupa (IRC: sriru:matrix.org). I am currently a second-year Master's student in Computer Science at the [Courant Institute of Mathematical Sciences, NYU](https://cs.nyu.edu/home/index.html), interested in pursuing research in Computer Science. My research interests focus on the intersection of deep learning, computer vision, and reinforcement learning. 
 
-Currently, I am working with [Prof. Sanjoy Kumar Saha](https://scholar.google.co.in/citations?user=X3Cu3hYAAAAJ&hl=en) on developing a robust framework for classifying motor movements and imagery, while balancing my full-time role as a Software Developer. I joined Morgan Stanley in 2023, where I am involved in a data migration project and responsible for maintaining financial data on the cloud (Snowflake). In the summer of 2023, I also contributed to Krita (KDE) as part of [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2023/projects/SB6pWpuy) under the mentorship of Emmet O'Neill. During this project, I redesigned Krita's Bundle Creator, a tool that enables users to create compressed files called Resource Bundles, which house collections of resources. I also added the capability to edit these bundles, enhancing the tool's functionality for the Krita community.
+Alongside my courses, I am contributing to [digiKam](https://www.digikam.org/) (KDE) as part of [Google Summer of Code 2026](https://summerofcode.withgoogle.com/programs/2026/projects/qyiUD0bH), building an LLM-assisted natural-language search feature that maps plain-English queries into structured search criteria (mentored by Gilles Caulier). Before joining NYU, I worked as a Software Engineer at Morgan Stanley (2023–2025), where I modernized legacy ETL pipelines, led large-scale data migration to Snowflake, and built full-stack application features using Python and Angular. In the summer of 2023, I also contributed to Krita (KDE) as part of [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2023/projects/SB6pWpuy) under the mentorship of Emmet O'Neill, redesigning Krita's Bundle Creator, a tool that enables users to create compressed files called Resource Bundles, which house collections of resources, and adding the capability to edit these bundles.
 
-Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en) and Prof. Sanjoy Kumar Saha on research projects that deepened knowledge of deep learning and signal processing. As a painter with a passion for software development, I actively contributed to Krita while also immersing myself in learning and practicing digital painting. During my undergraduate years, I had the opportunity to intern at [Simon Fraser University](https://www.sfu.ca/) in the summer of 2022 through the [Mitacs Globalink Fellowship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/), where I gained valuable research experience. I graduated from [Jadavpur University](https://jadavpuruniversity.in/), India, in 2023 with a Bachelor's degree in Electrical Engineering.
+Before my graduation, I worked with [Prof. Amit Konar](https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en) and [Prof. Sanjoy Kumar Saha](https://scholar.google.co.in/citations?user=X3Cu3hYAAAAJ&hl=en) on research projects that deepened my knowledge of deep learning and signal processing, including work on motor imagery classification from EEG signals. As a painter with a passion for software development, I actively contributed to Krita while also engaging myself in learning and practicing digital painting. During my undergraduate years, I had the opportunity to intern at [Simon Fraser University](https://www.sfu.ca/) in the summer of 2022 through the [Mitacs Globalink Fellowship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/), where I gained research experience in EEG-based brain age classification. I graduated from [Jadavpur University](https://jadavpuruniversity.in/), India, in 2023 with a Bachelor's degree in Electrical Engineering.
 
 <p style="text-align: center;">  
 <a href="mailto:srirupa.sps@gmail.com">Email</a>  /  
 <a href="https://drive.google.com/file/d/1Vs1ARMm-Q5m9TeAnWasNLkoTX3CtFJaz/view?usp=sharing">CV</a>  /  
 <a href="https://scholar.google.com/citations?hl=en&user=UV_Jyr0AAAAJ">Google Scholar</a>  /  
 <a href="https://www.github.com/srirupa19">GitHub</a>  /  
-<a href="https://www.linkedin.com/in/srirupa-datta/">LinkedIn</a>  
+<a href="https://www.linkedin.com/in/srirupa-datta-a89a90405/">LinkedIn</a>  
 </p>
 
 
@@ -52,6 +52,8 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
     <b>Motor Imagery Classification Using Activation/Deactivation Pattern Created from EEG Signal</b>
     <br>
     <i>Rahash Agarwal, <b>Srirupa Datta</b>, Debatri Chatterjee, Sanjoy Kumar Saha</i>
+    <br>
+    <span style="color: rgb(178, 4, 4);">IEEE APSCON'25</span>
     <br>
     <!-- Link at the bottom of the text -->
     [<a href="https://drive.google.com/file/d/17O2kqI7DtxLB-XtFqaH6o4vpqYGXkivS/view?usp=sharing" target="_blank">Paper</a>] 
@@ -85,6 +87,22 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
 
 <h3 style="color: #0074D9;">Work Experience</h3>
 
+<div style="display: flex; align-items: center;flex-wrap: wrap;">
+  <!-- Image or Animation on the left -->
+  <img src="/assets/gsoc2.gif" alt="Description of image" style="flex: 1; max-width: 40%; height: auto;margin-right: 20px;">
+  
+  <!-- Text on the right -->
+  <div style="flex: 2;">
+    <h5>Google Summer of Code, 2026</h5>
+    <p> Worked on an LLM-assisted natural-language search feature for digiKam that lets users type plain-English queries and maps them into editable Advanced Search criteria using a local lightweight model, validated intent parsing, ambiguity handling, caching, and the existing XML-to-SQL search pipeline.</p>
+    
+    <!-- Link at the bottom of the text -->
+    [<a href="https://community.kde.org/GSoC/2026/StatusReports/SrirupaDatta" target="_blank">About</a>] 
+    [<a href="https://invent.kde.org/srirupa/digikam/-/merge_requests/1">Code</a>]  
+    
+  </div>
+</div>
+
 
 <div style="display: flex; align-items: center;flex-wrap: wrap;">
   <!-- Image or Animation on the left -->
@@ -93,7 +111,7 @@ Before my graduation, I collaborated with [Prof. Amit Konar](https://scholar.goo
   <!-- Text on the right -->
   <div style="flex: 2;">
     <h5>Morgan Stanley, Software Engineer II</h5>
-    <i>Currently Working</i>
+    <i>Aug 2023 - Aug 2025</i>
     <p>As part of the Institutional Securities Department, worked on data transformation projects migrating finance reference data to Snowflake (Azure) and developed Jenkins-based CI/CD pipelines for automated deployments. Contributed to optimizing legacy ETL functionality by converting Perl code to Python and improving performance with PySpark, while also enhancing a full-stack application using Python, Flask, and Angular.</p>
     
     <!-- Link at the bottom of the text -->

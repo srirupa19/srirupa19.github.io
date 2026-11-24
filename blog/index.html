@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col offset-sm-1">
+      <section class="vspace-top post-header">
+        <h1>Blog</h1>
+        <ul class="post-list">
+          {%- for post in site.posts %}
+          <li class="row">
+            <div class="col-sm-3 news-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+            <div class="col"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></div>
+          </li>
+          {%- endfor %}
+        </ul>
+      </section>
+    </div>
+  </div>
+</div>

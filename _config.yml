@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Srirupa's Blog
+title: Srirupa Datta
 email: srirupa.datta@outlook.com
 author: Srirupa Datta
 description: >- # this means to ignore newlines until "baseurl:"
@@ -52,3 +52,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - ruby-4.0.5/
+  - ruby-4.0.5.tar.gz
+  - vendor/
+  - Gemfile
+  - Gemfile.lock

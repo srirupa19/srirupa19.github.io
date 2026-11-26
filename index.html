@@ -53,10 +53,10 @@ layout: default
         </p>
       </section>
 
-      <!-- ================= Research ================= -->
+      <!-- ================= Publications ================= -->
       <a id="Pub"></a>
       <section class="vspace-top">
-        <h1>Research</h1>
+        <h1>Publications</h1>
 
         <div class="row vspace-top">
           <div class="col-sm-3 paper-image">
@@ -84,6 +84,77 @@ layout: default
             <div>
               <a href="https://ieeexplore.ieee.org/document/10466131">[Paper]</a>
               <a href="https://github.com/srirupa19/EEG_Motor_Imagery">[Code]</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Research ================= -->
+      <a id="Research"></a>
+      <section class="vspace-top">
+        <h1>Research</h1>
+
+        <div class="row vspace-top">
+          <div class="col-sm-3 paper-image">
+            <img src="{{ '/assets/research_vit_outliers.png' | relative_url }}" alt="Outlier tokens (red boxes) in a Vision Transformer on a dog image">
+          </div>
+          <div class="col paper-text">
+            <div class="paper-title">M.S. Thesis: Mechanistic Interpretability of Vision Transformers</div>
+            <div class="paper-desc">New York University, Fall 2026 – Present</div>
+            <div class="paper-desc">Supervisor: <a href="https://cs.nyu.edu/~geiger/">Prof. Davi Geiger</a></div>
+            <p>Characterizing how Vision Transformers organize information internally, with a focus on the high-norm outlier tokens that emerge on uninformative background patches. Combining causal and information-theoretic analyses across pretrained ViTs to explain why these tokens arise and what downstream computation depends on them, with implications for quantization and model compression.</p>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="col-sm-3 paper-image">
+            <img src="{{ '/assets/research_image_editing.png' | relative_url }}" alt="Instruction-based image edit: source and edited image">
+          </div>
+          <div class="col paper-text">
+            <div class="paper-title">Spatial Credit Assignment for RL Post-Training of Image Editors</div>
+            <div class="paper-desc">Course Project, Computer Vision (NYU), Fall 2026</div>
+            <div class="paper-desc">Supervisor: <a href="https://www.sainingxie.com/">Prof. Saining Xie</a></div>
+            <p>Analyzed spatial credit assignment in reinforcement-learning post-training of flow-matching image editors, where image-level rewards induce unintended changes outside the edited region. Developed a credit-assignment framework that improves background fidelity while preserving instruction adherence.</p>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="col-sm-3 paper-image">
+            <img src="{{ '/assets/research_vlm_reward.png' | relative_url }}" alt="Object detection answers from a vision-language model">
+          </div>
+          <div class="col paper-text">
+            <div class="paper-title">Reward-Hacking-Resistant RL for Vision-Language Models</div>
+            <div class="paper-desc">Course Project, RLFM (NYU), Fall 2026</div>
+            <div class="paper-desc">Supervisor: <a href="https://sherryy.github.io/">Prof. Sherry Yang</a></div>
+            <p>Examined reward hacking in RL post-training of vision-language models under partial verifiers, where policies exploit unverifiable failure modes such as object omission. Developed a theoretically grounded, compute-efficient reward formulation that mitigates such exploitation across grounding and scene-understanding benchmarks.</p>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="col-sm-3 paper-image">
+            <img src="{{ '/assets/research_mujoco.png' | relative_url }}" alt="MuJoCo Humanoid agent">
+          </div>
+          <div class="col paper-text">
+            <div class="paper-title">Ensembles of Generative Policies for Exploration in Online RL</div>
+            <div class="paper-desc">Course Project, Machine Learning (NYU), Spring 2026</div>
+            <div class="paper-desc">Supervisor: <a href="https://cims.nyu.edu/~rajeshr/">Prof. Rajesh Ranganath</a></div>
+            <p>Characterized, theoretically and empirically, how ensembles of diffusion and flow-based policies in online RL collapse to identical behavior, limiting exploration. Proposed an actor-critic framework that preserves policy diversity and leverages it for exploration, yielding gains on continuous-control MuJoCo benchmarks.</p>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="col-sm-3 paper-image">
+            <img src="{{ '/assets/ssl_vit_umap.png' | relative_url }}" alt="UMAP of MoCo v3 ViT embeddings on SUN397">
+          </div>
+          <div class="col paper-text">
+            <div class="paper-title">Self-Supervised Learning Using Vision Transformers and MoCo v3</div>
+            <div class="paper-desc">Course Project, Deep Learning (NYU), Fall 2025</div>
+            <div class="paper-author">Anagha Radhakrishna Palandye*, <span class="me">Srirupa Datta*</span>, Vijay Jayawant Harkare*</div>
+            <div class="paper-desc">Supervisor: <a href="https://atcold.github.io/">Prof. Alfredo Canziani</a>, <a href="http://yann.lecun.com/">Prof. Yann LeCun</a></div>
+            <p>Explored self-supervised visual representation learning under strict capacity and resolution constraints (≤100M parameters, 96×96 inputs, random initialization). Pretrained Vision Transformers with momentum-contrastive learning (MoCo v3) on a curated 1.7M-image corpus, contributing a ViT-Tiny to the best-performing heterogeneous ensemble and scaling a ViT-Small to 42.6% / 74.5% / 48.9% linear-probe accuracy on CUB-200, MiniImageNet and SUN397.</p>
+            <div>
+              <a href="https://github.com/VijayHarkare21/dl_fall_2025_lets_do_this">[Code]</a>
+              <a href="{{ '/assets/SSL_Visual_Representation_Report.pdf' | relative_url }}">[Project Report]</a>
             </div>
           </div>
         </div>
@@ -179,6 +250,14 @@ layout: default
         <h1>Honors and Awards</h1>
 
         <div class="row vspace-top-news">
+          <div class="col-sm-3 news-date">May, 2026</div>
+          <div class="col"><a href="https://summerofcode.withgoogle.com/programs/2026/projects/qyiUD0bH">Google Summer of Code 2026</a>, selected as a contributor to KDE (digiKam).</div>
+        </div>
+        <div class="row vspace-top-news">
+          <div class="col-sm-3 news-date">May, 2023</div>
+          <div class="col"><a href="https://summerofcode.withgoogle.com/archive/2023/projects/SB6pWpuy">Google Summer of Code 2023</a>, selected as a contributor to KDE (Krita).</div>
+        </div>
+        <div class="row vspace-top-news">
           <div class="col-sm-3 news-date">May, 2022</div>
           <div class="col"><a href="https://www.mitacs.ca/our-programs/globalink-research-internship-students/">Mitacs Globalink Research Internship</a>, awarded to top-ranked applicants from 15 different countries, offering a 12-week research opportunity at Canadian universities.</div>
         </div>
@@ -228,6 +307,19 @@ layout: default
         <div class="row vspace-top-news">
           <div class="col-sm-3 news-date"><a href="https://invent.kde.org/graphics/krita/-/merge_requests/886">PR !886 (Krita)</a></div>
           <div class="col">Fixed swapped Y-axis labels in the brush mix transfer curve.</div>
+        </div>
+      </section>
+
+      <!-- ================= Education ================= -->
+      <section class="vspace-top">
+        <h1>Education</h1>
+        <div class="row vspace-top-news">
+          <div class="col-sm-3 news-date">2025 – Present</div>
+          <div class="col"><b>M.S. in Computer Science</b>, <a href="https://cs.nyu.edu/home/index.html">Courant Institute of Mathematical Sciences, New York University</a><br>GPA: 3.83/4.0</div>
+        </div>
+        <div class="row vspace-top-news">
+          <div class="col-sm-3 news-date">2019 – 2023</div>
+          <div class="col"><b>B.E. in Electrical Engineering</b>, <a href="https://jadavpuruniversity.in/">Jadavpur University</a>, Kolkata, India<br>GPA: 9.22/10.0</div>
         </div>
       </section>
 

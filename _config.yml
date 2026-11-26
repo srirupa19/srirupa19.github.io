@@ -54,6 +54,7 @@ plugins:
 #   - vendor/ruby/
 
 exclude:
+  - assets/*.pdf
   - ruby-4.0.5/
   - ruby-4.0.5.tar.gz
   - vendor/

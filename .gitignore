@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+# Private papers and documents: never commit
+*.pdf
